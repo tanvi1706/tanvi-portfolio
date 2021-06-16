@@ -6,10 +6,6 @@ body {
     background-color: #FFC107;
 }
 
-.top-container {
-    padding-top: 100px;
-    background-color: #FFC107;
-}
 
 h1 {
     font-size: 562.5%;
@@ -54,17 +50,41 @@ hr {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    position: relative;
-
 }
 
 .profile-picture {
     border-radius: 50%;
 }
-.bottom-container {
-    color: #FFBBCC ;
+
+.top-container {
+    background-color: #FFC107;
+    position: relative;
+    padding-top: 100px;
+
 }
 
+.middle-container {
+
+    padding-top: 30px;
+}
+
+/* .bottom-container {
+    color: #FFBBCC ;
+} */
+
+.skill-row{
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    text-align: left;
+    width: 20%;
+}
+
+.skill-img 
+{
+    border-radius: 50%;
+    float: left;
+
+}
 /* 99154E
 FFC93C
 FFDDCC
