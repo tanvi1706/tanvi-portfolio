@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    text-align: center;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif ; */
+    font-family: 'Merriweather', serif;
+    background-color: #FFC107;
+}
+
+.top-container {
+    padding-top: 100px;
+    background-color: #FFC107;
+    position: relative;
+}
+
+h1 {
+    margin-top: 0px;
+    color: #99154E;
+    font-family: 'Gochi Hand', cursive;
+}
+
+h2 {
+    color: #99154E;
+    font-family: 'Patrick Hand', cursive;
+
+}
+
+h3 {
+    color: #99154E;
+    font-family: 'Patrick Hand', cursive;
+
+}
+.subtitle {
+    color: #99154E;
+    height: 13px;
+    font-family: 'Patrick Hand', cursive;
+
+}
+
+.tulips {
+    display: block;
+    height: 50%;
+    width: 100%;
+}
+
+.profile {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.profile-picture {
+    border-radius: 50%;
+}
+
+/* 99154E
+FFC93C
+FFDDCC
+FFBBCC */
+
+
+/* FFFBDF
+C6FFC1
+34656D
+334443 */
