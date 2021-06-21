@@ -6,6 +6,9 @@ body {
     background-color: #FFC107;
 }
 
+p{
+    line-height: 2;
+}
 
 h1 {
     font-size: 562.5%;
@@ -17,17 +20,22 @@ h1 {
 h2 {
     color: #99154E;
     font-family: 'Patrick Hand', cursive;
-
+    font-size: 2.5rem;
+    font-weight: normal;
 }
 
 h3 {
     color: #99154E;
-    font-family: 'Lora', serif;
+    font-family: 'Merriweather', serif;
+    /* font-family: 'Lora', serif; */
 
 }
 
 hr {
-    color: #99154E;
+    border: dotted #99154E 6px;
+    border-bottom: none;
+    width: 6%;
+    margin: 100px auto;
 }
 
 .subtitle {
@@ -65,26 +73,60 @@ hr {
 
 .middle-container {
 
-    padding-top: 30px;
+    margin: 150px;
 }
 
-/* .bottom-container {
-    color: #FFBBCC ;
-} */
+.bottom-container {
+    height: 30px;
+}
 
 .skill-row{
+    width: 50%;
     margin: 100px auto 100px auto;
-    line-height: 2;
     text-align: left;
-    width: 20%;
 }
 
-.skill-img 
-{
-    border-radius: 50%;
+.skill-design {
+    width: 25%;
     float: left;
+    margin-right: 30px;
+    border-radius: 50%;
+    
+}
+
+.skill-backend
+{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
 
 }
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.contact-msg {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright {
+    font-size: 1rem;
+    padding: 20px 0;
+}
+
+/* .code-skill-description{
+    clear: left;
+}
+
+.code-backend-description {
+    clear: right;
+} */
+
+
 /* 99154E
 FFC93C
 FFDDCC
