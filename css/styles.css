@@ -38,6 +38,18 @@ hr {
     margin: 100px auto;
 }
 
+a{
+    color: #99154E;
+    font-family: 'Merriweather', serif;  
+    text-decoration: none;  
+    font-size: 20px;
+    margin: 10px 10px;
+}
+
+a:hover {
+    color: white;
+}
+
 .subtitle {
     color: #99154E;
  
@@ -114,8 +126,9 @@ hr {
 }
 
 .copyright {
-    font-size: 1rem;
-    padding: 20px 0;
+    color: white;
+    font-size: 0.75rem;
+    padding: 20px 0px;
 }
 
 /* .code-skill-description{
