@@ -1,7 +1,14 @@
 body {
     margin: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
     text-align: center;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif ; */
     font-family: 'Merriweather', serif;
     background-color: #FFC107;
+}
+.tulips {
+    /* display: block; */
+    height: 50%;
+    width: 100%;
 }
