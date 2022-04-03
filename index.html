@@ -6,23 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tanvi Patil</title>
     
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon2.ico">
+    
+    <link rel="icon" href="./assets/favicon2.ico">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
+
     <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Merriweather:ital,wght@1,300&family=Montaga&family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Patrick+Hand&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Patrick+Hand&display=swap" rel="stylesheet">  
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <div class="container-fluid">
+    <div class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="color: #99154E">Tanvi Krishna Patil</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class= "nav-link" href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">My Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <div class="top-container"> 
         <h1>Hi, I'm Tanvi.</h1>
         <p class="subtitle">Aspiring software development engineer...</p>
-        <img class="tulips" src="tulips.jpg" alt="">
+        <img class="tulips" src="./assets/tulips.jpg" alt="">
     </div>
-    <div class="middle-container">
-        <div class="profile">
-            <img class="profile-picture" src="profilen.png" alt="profile-picture">
+    
+    <div class="container-flex">
+        <div>
+            <img class="profile-picture" src="./assets/profilen.png" alt="profile-picture">
             <h2>Hello.</h2>
             <p class="intro">I am graduate student pursuing Master's of Science in Computer Software Engineering at The University of Texas at Dallas.
             I am a Full Stack Developer. I also like working on mobile technologies i.e Flutter and iOS. I am also a Cloud Enthusiast (AWS). </p>
@@ -31,7 +61,7 @@
         <div class="skills">
             <h2>Grad Experience</h2>
             <div class="skill-row">
-                <img class="skill-design" src="utdallas1.png" alt="design-dev">
+                <img class="skill-design" src="./assets/utdallas1.png" alt="design-dev">
                 <h3>Student Assisstant, CS Outreach Instructor</h3>
                 <p>@ The University of Texas at Dallas</p>
                 <p>
@@ -40,7 +70,7 @@
             </div>
             <h2>My Internships</h2>
             <div class="skill-row">
-                <img class="skill-design" src="Digilocker.png" alt="design-dev">
+                <img class="skill-design" src="./assets/Digilocker.png" alt="design-dev">
                 <h3>Backend Develeoper Intern</h3>
                 <p>@ Digilocker</p>
                 <p>DigiLocker is Government of India's cloud based platform for issuance & verification of documents & certificates. Worked under National e-governance division. 
@@ -52,7 +82,7 @@
             </div>
 
             <div class="skill-row">
-                <img class="skill-design" src="zenith technologies.png" alt="design-dev">
+                <img class="skill-design" src="./assets/zenith technologies.png" alt="design-dev">
                 <h3>Software Develeoper Intern</h3>
                 <p> @ Zenith technologies
                     <ul></ul>
@@ -64,15 +94,15 @@
 
             <h2>My Skills</h2>
             <div class="skill-row">
-                <img class="skill-design" src="skill-star.png" alt="design-dev">
+                <img class="skill-design" src="./assets/skill-star.png" alt="design-dev">
                 <h3>Design & Development</h3>
                 <p>Web: HTML, CSS, Bootstrap, SQL, MongoDB, Nodejs, React.js, Vue.js; 
                 <br>
-                Mobile Development: Flutter, iOS</p>
+                Mobile Development: React Native, Flutter, iOS</p>
             </div>
 
             <div class="skill-row">
-                <img class="skill-backend" src="backend-img.png" alt="back-end">
+                <img class="skill-backend" src="./assets/backend-img.png" alt="back-end">
                 <h3>Backend Engineering with python</h3>
                 <p>Flask, Django, REST API</p>
             </div>
@@ -80,13 +110,16 @@
         </div>
         <hr>
     </div>
+
    
     <h2>My Contact.</h2>
     <div class="bottom-container">
         <a href="https://www.linkedin.com/in/tanvipatil1/">LinkedIn</a>
-        <a href="">Instagram</a>
-        <a  class="btn" href="mailto:patiltanvi49@gmail.com">Email</a>
+        <a href="https://github.com/tanvi1706">GitHub</a>
+        <a href="mailto:patiltanvi49@gmail.com">Email</a>
         <p class="copyright"><span>&copy;</span>copyright 2021 Tanvi Patil</p>
     </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
 </body>
 </html>

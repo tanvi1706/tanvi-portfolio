@@ -50,6 +50,11 @@ a:hover {
     color: white;
 }
 
+.container-fluid  {
+    padding: 3% 8%;
+}
+
+
 .subtitle {
     color: #99154E;
  
@@ -60,7 +65,7 @@ a:hover {
 }
 
 .tulips {
-    display: block;
+    /* display: block; */
     height: 50%;
     width: 100%;
 }
@@ -73,6 +78,7 @@ a:hover {
 }
 
 .profile-picture {
+    margin-top: 25px;
     border-radius: 50%;
 }
 
@@ -83,10 +89,10 @@ a:hover {
 
 }
 
-.middle-container {
+/* .middle-container {
 
     margin: 150px;
-}
+} */
 
 .bottom-container {
     height: 30px;
